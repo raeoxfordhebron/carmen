@@ -75,3 +75,7 @@
 
 
 -- She's in ___Santa Monica_________________________!
+
+-- Hungry For More
+UPDATE city SET name = 'Brasília' WHERE id = 211;
+SELECT city.name FROM city WHERE id = 211;
