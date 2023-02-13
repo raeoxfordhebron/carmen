@@ -45,8 +45,7 @@
 
 -- Clue #5: Oh no, she pulled a switch – there are two cities with very similar names, but in totally different parts of the globe! She's headed to South America as we speak; go find a city whose name is like the one we were headed to, but doesn't end the same. Find out the city, and do another search for what country it's in. Hurry!
 
--- SELECT city.name FROM city WHERE city.name LIKE 'Serra%'
--- SELECT city.countrycode FROM city WHERE name = 'Serra'
+-- SELECT city.name, city.countrycode FROM city WHERE city.name LIKE 'Serra%'
 -- SELECT country.name FROM country WHERE country.code = 'BRA'
 -- Brazil
 
@@ -75,4 +74,4 @@
 -- Santa Monica
 
 
--- She's in ____________________________!
+-- She's in ___Santa Monica_________________________!
